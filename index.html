@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Happy Birthday!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <audio id="bg-music" src="happy-birthday.mp3" loop></audio>
+
+  <div class="container">
+    <h1>🎉 Happy Birthday, [Name]! 🎂</h1>
+    <p id="countdown"></p>
+    <button id="celebrateBtn">Celebrate! 🎈</button>
+  </div>
+
+  <div id="popup" class="hidden">
+    <div class="popup-content">
+      <h2>💖 Special Message 💖</h2>
+      <p>Wishing you smiles, hugs, cake, and joy today and always!</p>
+      <button id="closePopup">Thank You!</button>
+    </div>
+  </div>
+
+  <canvas id="fireworks"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
